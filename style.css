@@ -65,14 +65,30 @@ main > section.normal{
 main > section.imagem{
     background-color: rgb(50, 50, 50);
     color: white;
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.410);
+    background-attachment: fixed;
 }
 
 main > section.imagem > p{
     display: inline-block;
     padding: 5px;
-    background-color: rgba(0, 0, 0, 0.192);
+    background-color: rgba(0, 0, 0, 0.515);
+    text-shadow: 1px 1px 0px black;
+}
+main > section > p{
+    padding-bottom: 1.5em;
 }
 
+main > section#img01{
+    background-image: url(imagens/background001.jpg);
+    background-position: right center;
+    background-size: cover;
+}
+main > section#img02{
+    background-image: url(imagens/background002.jpg);
+    background-position: right center;
+    background-size: cover;
+}
 
 footer {
     background-color: rgba(0, 0, 0, 0.719);
